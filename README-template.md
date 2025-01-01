@@ -1,6 +1,86 @@
-# Frontend Mentor - Advice generator app solution
+# Advice generator app
 
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+A simple and fully responsive web application that generates random advice using HTML, CSS, and JavaScript. The app fetches data from the [Advice Slip API](https://api.adviceslip.com/) and displays it in an aesthetically pleasing and user-friendly interface.
+
+The app is built using a mobile-first approach and optimized for different screen sizes. Flexbox and media queries are used to ensure responsiveness.
+
+This app uses the Advice Slip API to fetch random advice. The data is retrieved using a simple fetch request in JavaScript.
+
+##### API Response:
+
+```
+{
+  "slip": {
+    "id": 42,
+    "advice": "Don't forget to take breaks while working."
+  }
+}
+```
+---
+
+## Features
+
+- 🎲 **Random Advice**: Generate random pieces of advice at the click of a button.
+- 📱 **Fully Responsive**: Designed to look great on any device, from mobile phones to desktops.
+- ✨ **Clean UI**: A minimalist and intuitive design for a seamless user experience.
+- ⚡ **Fast and Lightweight**: Loads quickly and performs efficiently.
+
+---
+
+## Live Demo
+
+Check out the live app: [Advice Generator App](https://yourusername.github.io/advice-generator-app/)
+
+---
+
+## Technologies Used
+
+- **HTML5**: For structuring the application.
+- **CSS3**: For styling and ensuring responsiveness.
+- **JavaScript**: For fetching data from the API and adding interactivity.
+
+---
+
+## How to Run Locally
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/clinton15/advice-generator-app.git
+   cd advice-generator-app
+
+2. **Open in the Browser**: 
+Simply open the index.html file in your browser to see the app in action.
+
+---
+
+###  Screenshots
+
+#### Desktop View:
+
+
+
+#### Mobile View:
+
+---
+
+### What I learned
+
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+To see how you can add code snippets, see below:
+
+<!-- ```
+html
+<h1>Some HTML code I'm proud of</h1>
+```
+
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+``` -->
+
+---
 
 ## Table of contents
 
@@ -55,8 +135,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Mobile-first workflow
 - Fetch API
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
@@ -77,10 +155,6 @@ const proudOfThisFunc = () => {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
@@ -96,14 +170,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Clinton Pereira](https://www.your-site.com)
