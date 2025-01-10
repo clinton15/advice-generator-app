@@ -53,80 +53,17 @@ Simply open the index.html file in your browser to see the app in action.
 
 ---
 
-###  Screenshots
+### Screenshots
 
 #### Desktop View:
-
-
+![](./images/desktop-screenshot.png)
+![](./images/desktop-screenshot1.png)
 
 #### Mobile View:
+![](./images/mobile-screenshot1.png)
+![](./images/mobile-screenshot.png)
 
----
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-<!-- ```
-html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-``` -->
-
----
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)remote add origin https://github.com/clinton15/advice-generator-app.git
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Generate a new piece of advice by clicking the dice icon
-
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
+--- 
 ### Built with
 
 - Semantic HTML5 markup
@@ -137,37 +74,29 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+In this project, I learned how to use CSS variables to make styles more flexible and maintainable. By defining variables for colors, I can easily reuse them throughout the stylesheet, ensuring consistency and simplifying updates. When a change is needed, I can update the variable once, and it automatically reflects across all instances where the variable is used. This improves code readability and reduces duplication.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+:root {
+  --green: hsl(150, 100%, 66%);
+}
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.dice-btn:hover {
+  box-shadow: 0 0 16px var(--green);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- **Preferences and Filters:** Allow users to set preferences, such as receiving advice on specific topics (e.g., career, relationships, personal growth) and avoid advice in other areas they’re not interested in.
+- **Multilingual Support:** Expand the app’s reach by adding multilingual support, enabling users from various regions to access advice in their native languages.
+- **Offline Mode:** Allow users to access advice even when they are offline or in areas with limited connectivity. Store recent advice in cache for access without an internet connection.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [MDN](https://developer.mozilla.org/en-US/) - This was my guide for any blockers/issues that i faced during the development phase. It covers a variety of concepts and i will use it going forward.
+- [Use of CSS Variables](https://www.w3schools.com/css/css3_variables.asp) - This is an amazing article which helped me finally understand how to add CSS variables in our code. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- Website - [Clinton Pereira](https://www.your-site.com)
+- [Clinton Pereira](https://www.your-site.com)
