@@ -29,7 +29,7 @@ This app uses the Advice Slip API to fetch random advice. The data is retrieved 
 
 ## Live Demo
 
-Check out the live app: [Advice Generator App](https://yourusername.github.io/advice-generator-app/)
+Check out the live app: [Advice Generator App](https://gleaming-starlight-a21acf.netlify.app/)
 
 ---
 
