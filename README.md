@@ -109,4 +109,4 @@ In this project, I learned how to use CSS variables to make styles more flexible
 
 ## Author
 
-- [Clinton Pereira](https://www.your-site.com)
+- [Clinton Pereira](https://clinton-pereira-portfolio.vercel.app/)
