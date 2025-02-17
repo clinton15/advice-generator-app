@@ -1,4 +1,6 @@
 const getAdvice = async () => {
+  const loader = document.getElementById("loader");
+  loader.style.display = "block";
   const idElement = document.getElementById("adviceId");
   const paraElement = document.getElementById("advice");
 
@@ -8,6 +10,7 @@ const getAdvice = async () => {
 
     idElement.innerHTML = data?.slip?.id;
     paraElement.innerHTML = `"${data?.slip?.advice}"`;
+    loader.style.display = "none";
   } catch (error) {
     console.log(error);
   }
